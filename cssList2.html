@@ -1,0 +1,21 @@
+<!doctype html>
+<html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale="1"/>
+<style>
+ oi.inside {list-style-position:inside;} ol.outside {list-style-position:outside;}
+ ol li{border:1px solid gray;}
+ ul.img {list-style-image:url("https://www.google.com/url?sa=i&url=http%3A%2F%2Fprod.danawa.com%2Finfo%2F%3Fpcode%3D6120579&psig=AOvVaw0QLpSIzpiINwnXsKoZoY4-&ust=1591150735444000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiow8eI4ukCFQAAAAAdAAAAABAJ");}
+ ul.char li:before {content:"#"; padding-right:0px; color:red;}
+ /* ul li:before {content:"../images/lobster.png"; padding-right:0px; color:red;} */
+ ol.all {list-style:decimal-leading-zero inside;}
+ ul.menu.li {list-style:none; display:inline; background-color:red;}
+ /* ul.menu li {list-style:none; display:inline padding:0 20px 0 20px} */
+ </style>
+ <title>CSS 목록 실습</title></head>
+ <body><section><h3>목록</h3>
+ <ol class="inside position"<li></li><li>사과</li><li>배</li><li>포도</li></ol>
+  <ol class="outside position"<li></li><li>사과</li><li>배</li><li>포도</li></ol>
+  <ul class="img"<li>imge</li><li>사과</li></ul>
+   <ul class=""<li>기타문자</li><li>사과</li><li>배</li><li>포도</li></ul>
+    <ol class=""<li>한줄로 list-style:decimal-leading zero inside</li><li>사과</li><li>배</li><li>포도</li></ol>
+    <ul class="menu"></li>메뉴|</li><li>로그인|</li><li>회원가입|</li><li>사이트맵</li></ul>
+    </section></body></html>
