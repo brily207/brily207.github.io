@@ -23,7 +23,8 @@ a:hover {color:red; background-color:transparent; text-decoration:underline;}
 a:active {color:blue; background-color:transparent; text-decoration:none;}
 #loginBtn button {margin-left:5px; height:42px;}
 .level_2 span {display:inline-block; width:70px;} .level_2 input {width:100px;}
-
+.youtube { position: relative; width: 100%; padding-bottom: 56.25%; }
+.youtube iframe { position: absolute; width: 100%; height: 100%; }
 </style>
 <title>커리어쉽 테스트 실습</title></head>
 <body>
@@ -41,22 +42,19 @@ a:active {color:blue; background-color:transparent; text-decoration:none;}
     <nav>
       <ul>
       <li><a href="https://www.w3.org/TR/html5/" target"_blank">HTML5</a></li>
-      <li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
-      <li><a href="https://jquerymoblie.com/" target="_blank">jQuery Mobile</a></li>
+      <li><a href="https://www.google.co.kr/?gws_rd=ssl" target="_blank">Google</a></li>
+      <li><a href="https://www.naver.com" target="_blank">naver</a></li>
       <li><a href="./jspintro.html">JSP</a></li></ul>
       </nav>
       <section> <!-- main -->
         <section><a href="anchor2.html"><h3 id="chapter1">컴퓨터공학과</h3></a>
         <p>컴퓨터공학과를 전공하고 있는 서유권입니다. 해당페이지는 본인의 취업소개를 위한 HTML5기반 페이지 입니다.</p>
         <h4>컴퓨터공학과 소개영상</h4>
-        <video controls="controls" height="426" width="240"
-          <source src="https://youtu.be/qbtcUxguLfQ" type="video/mp4">
-              브라우저가 지원하지 않거나 비디오 형식의 파일이 존재하지 않습니다!!!   </video><hr/>
+        <div class="youtube"><iframe width="854" height="480" src="https://youtu.be/qbtcUxguLfQ" frameborder="0" allowfullscreen="">
+          </iframe></div>
          </section>
          <section><h3 id="chapter2">메뉴</h3>
          <p>이동할 링크를 클릭하세요</p>
-         <p>HTML과 같은 하이퍼미디어에서, 노드는 HTML문서, 멀티미디어 정보를 표현하는 기본단위이고,
-         링크는 노드간을 연결하며, 앵커는 링크의 출발점 또는 도착점을 의미합니다.</p>
          <p>저의 사회적 활동내역이 궁금하시다면 <a href="test113">여기를 클릭</a>하세요.</p>
          <p>자격증 및 스펙관리에 대해 궁금하시다면<a href="test114">여기를 클릭</a>하세요.</p>
          <p>추후 계휙을 위한 다짐이 보고싶으시다면 <a href="tset115">여기를 클릭</a>하세요.</p></section>
@@ -64,14 +62,15 @@ a:active {color:blue; background-color:transparent; text-decoration:none;}
           <p>취업에 궁금한게 있다면 이 사이트를 둘러보세요.</p>
           <table><tr><th>이동주소</th><th>사이트명</ht><th>설명</th></tr>
           <tr><td>career</td><td><a href="https://www.career.go.kr/cnet/front/main/main.do">커리어넷</a></td><td>커리어넷</td></tr>
-          <tr><td>설명 다시보기</td><td><a href="#chapter1">제1장이동(북마크이동)</a></td><td></td></tr></table>
+          <tr><td>설명 다시보기</td><td><a href="#chapter1">배너로 이동</a></td><td></td></tr></table>
           </section>
           </section> <!-- /main -->
           <aside>
               <ul>
-              <li><a href=https://www.google.com><img src"../images/googlePlus.png" alt="구글"/></a></li>
-              <li><a href=https://www.facebook.com><img src="../images/facebookOne.png" alt="페이스북"/></a></li>
-              <li><a href=https://www,twitter.com><img src"../images/twitterYou.png" alt="트위터"/></a></li>
+                <p>당신은 더 이상 우물안의 개구리가 아니에요</p>
+              <li><a href=https://www.instagram.com<img src"https://ww.namu.la/s/4a34412801b40fa5887d6dfe0db9c73e50de8aae1cfb76c073ca8afb1b5af6b1690431af9be13e9f2eea33d3a79c35bdfc1c0ed922e5833076421b720d9888d03923ed3b7e0d19fdfa84dad00a231abc5651fc422e01cfceaa59785d20c2b6da3faa969cb965fb24617e8717052ae373" alt=인스타그램"/></a></li>
+              <li><a href=https://www.facebook.com><img src="https://w.namu.la/s/970fb4dfe626e3e0a3b9b1d938193d000dd925e8a0d62532b3905eeafbeed243565cffe02dbea863bd8f522d4c32e8620b9adf723b132ae4c46d402049102138fe105b330e2e7cc15fad627b2900f9b78657d19e6d8ba759aa6ab481c4680961" alt="페이스북"/></a></li>
+              <li><a href=https://www.twitter.com><img src"https://w.namu.la/s/7720eb6d062085d219672ec79068e5e6e5396ea4385df8d55322c1eda99fa3418cfc14b7e75427316fc11536a506e7ba634bad55d3df4e54098b85a146c57715aa4bfa85893c8a89ad098ae46ea3009700c27105952c9b8dc3d889befe999786" alt="트위터"/></a></li>
               </ul>
              </aside>
              <footer>
